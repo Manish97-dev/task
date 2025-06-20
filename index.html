@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <h1>Task - 1</h1>
+
+  <div class="product-container">
+    <div class="product-images">
+      <img src="https://www.skechers.in/on/demandware.static/-/Sites-skechers_india/default/dwef8da6f1/images/large/199025390934-5.jpeg" alt="Product Img" class="main-image" />
+      <div class="thumbnail-gallery">
+        <img src="https://www.skechers.in/on/demandware.static/-/Sites-skechers_india/default/dwef8da6f1/images/large/199025390934-5.jpeg" alt="Product Img" />
+        <img src="https://www.skechers.in/on/demandware.static/-/Sites-skechers_india/default/dw4f973970/images/large/199025390934-4.jpeg" alt="Product Img" />
+        <img src="https://www.skechers.in/on/demandware.static/-/Sites-skechers_india/default/dw8f436c8e/images/large/199025390934-1.jpeg" alt="Product Img" />
+      </div>
+    </div>
+
+    <div class="product-details">
+      <p class="category">MEN'S</p>
+      <h1 class="title">Sneaker</h1>
+      <p class="price">₹4,899.00 <span class="mrp">₹6,999.00</span>
+        <span class="tax-note">(incl. of all taxes)</span>
+      </p>
+    
+    <label>Select size</label>
+    <div class="size-options">
+        <div class="size-box" onclick="selectSize(this)">6</div>
+        <div class="size-box" onclick="selectSize(this)">7</div>
+        <div class="size-box" onclick="selectSize(this)">8</div>
+        <div class="size-box" onclick="selectSize(this)">9</div>
+        <div class="size-box" onclick="selectSize(this)">10</div>
+    </div>
+
+    <p class="availability">Availability: <span>In Stock</span></p>
+
+      <div class="quantity-selector">
+        <button onclick="decreaseQty()">−</button>
+        <input type="number" id="quantity" value="1" min="1" />
+        <button onclick="increaseQty()">+</button>
+      </div>
+
+      <button class="add-to-cart">ADD TO CART</button>
+    </div>
+  </div>
+
+
+  <br />
+  <hr>
+  <br />
+
+    <h1>Task - 2</h1>
+
+  <br/>
+
+    <div class="banner-wrapper">
+      <button id="prevBtn" class="nav-btn">‹</button>
+      <div id="bannerContainer" class="banner-container"></div>
+      <button id="nextBtn" class="nav-btn">›</button>
+      <div id="dotContainer" class="dot-container"></div>
+    </div>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
